@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  /* Header */
   
   .menu-container {
     display: flex;
@@ -26,4 +28,28 @@
   .login {
     margin-left: 20px;
   }
+
+  /* Page */
+
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.social,
+.logo,
+.subscribe {
+  border: 1px solid #5995DA;
+}
+
   
